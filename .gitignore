@@ -1,0 +1,5 @@
+.env
+.migrate
+_archive
+node_modules
+.DS_Store
