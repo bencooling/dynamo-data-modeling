@@ -122,7 +122,7 @@ const RelationalTabs = props => (
       </Panel>
     </Tab>
     <Tab eventKey={3} title="Many:Many">
-      <Panel>
+      <Panel header="Language:Location">
         <p>Many artifacts with the same language can be at the same location; Primary Key: Language(Hash), Location(Range)</p>
         <ArtifactsTable data={props.state.languageLocation} name="languageLocation" fetchData={props.fetchLanguageLocation} />
       </Panel>
