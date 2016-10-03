@@ -1,6 +1,9 @@
-# dynamo-data-modelling
+# dynamo-data-modeling
 
 > Relational data modeling with dynamodb. No server-side code all in the browser with react, redux, webpack, migrations, data scraping & seeding.
+
+<image width="494px" alt="User interface" src="https://raw.githubusercontent.com/bencooling/dynamo-data-modeling/master/ui.png">
+
 
 ## dynamodb
 
