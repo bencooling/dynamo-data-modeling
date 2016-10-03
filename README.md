@@ -2,6 +2,11 @@
 
 > Relational data modeling with dynamodb. No server-side code all in the browser with react, redux, webpack, migrations, data scraping & seeding.
 
+## dynamodb
+
+- Denormalised data is accessible data; Normalised is organised. The downside to normalised is it requires caching for fast reads. Dynamodb provides managed  distributed data persistence with replication (many zones within a region), sharding & throttling out of the box.
+
+
 ## Features
 - Scrapes data from wikipedia ([List of artifacts in biblical archaeology](https://en.wikipedia.org/wiki/List_of_artifacts_in_biblical_archaeology)).
 - Migrations for automated provisioning dynamodb.  
@@ -31,6 +36,9 @@ Many artifacts with the same language can be at the same location.
 
 **2. Provision tables**  
 `migrate up`
+
+**3. Add AWS credentials**  
+`cp .env.sample .env`
 
 **3. Run**  
 `npm start`
