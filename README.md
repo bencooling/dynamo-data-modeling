@@ -40,7 +40,7 @@ Many artifacts with the same language can be at the same location.
 **3. Add AWS credentials**  
 `cp .env.sample .env`
 
-**3. Run**  
+**4. Run**  
 `npm start`
 
 
